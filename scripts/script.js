@@ -1,7 +1,3 @@
-let heading = document.querySelector("#main-heading");
-let paragraph = document.querySelector(".description");
-let button = document.querySelector("#changeText");
+let paragraphs = document.querySelectorAll(".description");
 
-console.log(heading);
-console.log(paragraph);
-console.log(button);
+paragraphs.forEach(paragraph => console.log(paragraph));
